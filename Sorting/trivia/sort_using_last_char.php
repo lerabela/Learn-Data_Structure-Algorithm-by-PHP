@@ -18,7 +18,7 @@ function sort_last_char(array &$usort): array{
 
             if(!ctype_alpha($val_1) || !ctype_alpha($val_2)){
 
-                return null;
+                return 0;
     
             }    
 
@@ -32,7 +32,7 @@ function sort_last_char(array &$usort): array{
 
             }
 
-            return null;
+            return 0;
 
         });
 

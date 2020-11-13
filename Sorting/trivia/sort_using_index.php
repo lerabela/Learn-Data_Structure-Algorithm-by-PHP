@@ -18,7 +18,7 @@ function index_sort(array &$sort, int $idx): array{
 
             if(!ctype_alpha($val_1) || !ctype_alpha($val_2)){
 
-                return null;
+                return 0;
 
             }
 
@@ -32,7 +32,7 @@ function index_sort(array &$sort, int $idx): array{
 
             }
 
-            return null;
+            return 0;
 
         });
 
